@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil UMKM - Martabak Manis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        .hover-scale { transition: transform 0.3s ease; }
+        .hover-scale:hover { transform: scale(1.02); }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-emerald-600 tracking-tight">Martabak<span class="text-orange-500">Manis</span></h1>
+            <span class="hidden md:block text-sm font-medium bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full">Kategori: Kuliner</span>
+        </div>
+    </nav>
+
+    <header class="bg-emerald-600 py-16 px-6 text-white animate__animated animate__fadeIn">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-4 uppercase tracking-wide">Martabak Manis Official</h2>
+            <p class="text-emerald-100 text-lg max-w-2xl mx-auto italic">"Rasanya sangat nikmat, lumer di mulut dengan berbagai pilihan rasa favorit Anda."</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 md:px-6 -mt-10 pb-20">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            
+            <div class="lg:col-span-1 space-y-6 animate__animated animate__fadeInLeft">
+                <div class="bg-white p-6 rounded-2xl shadow-lg border border-emerald-50">
+                    <h3 class="text-xl font-bold border-b pb-3 mb-4 text-emerald-700">Informasi Pemilik</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <p class="text-xs text-slate-400 uppercase font-semibold">Nama Pemilik</p>
+                            <p class="font-medium text-lg">Izhar Syah</p>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-400 uppercase font-semibold">Alamat</p>
+                            <p class="text-slate-600">Jln. Kotabambu</p>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-400 uppercase font-semibold">Jam Operasional</p>
+                            <p class="inline-block bg-orange-100 text-orange-700 text-sm px-3 py-1 rounded-md font-bold mt-1">08.00 - 13.00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-emerald-700 p-6 rounded-2xl shadow-lg text-white hover-scale">
+                    <h3 class="text-xl font-bold mb-4 italic">Hubungi Kami</h3>
+                    <a href="https://wa.me/6285691950760" target="_blank" class="flex items-center space-x-3 mb-4 hover:bg-emerald-800 p-2 rounded-lg transition">
+                        <span class="bg-white p-2 rounded-full text-emerald-700">📞</span>
+                        <span class="font-medium text-sm">0856-9195-0760</span>
+                    </a>
+                    <div class="flex items-center space-x-3 text-sm opacity-90">
+                        <span>📧</span>
+                        <span>martabak manis official@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-2 space-y-8 animate__animated animate__fadeInUp">
+                
+                <div class="bg-white p-8 rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4 text-slate-800">Tentang Usaha</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Kami menyajikan martabak manis kualitas premium dengan tekstur yang lembut dan bersarang. 
+                        Menyediakan berbagai varian rasa mulai dari coklat klasik, keju melimpah, dan berbagai macam pilihan topping lainnya (DLL). 
+                        Setiap porsi dibuat dengan bahan pilihan untuk menjamin rasa yang nikmat di setiap gigitan.
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl font-bold mb-6 flex items-center">
+                        <span class="bg-emerald-600 w-2 h-8 rounded-full mr-3"></span>
+                        Menu Utama Kami
+                    </h3>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-white p-6 rounded-2xl shadow-md border-t-4 border-orange-400 hover-scale">
+                            <div class="flex justify-between items-start mb-2">
+                                <h4 class="text-xl font-bold text-slate-800">Martabak Manis</h4>
+                                <span class="text-emerald-600 font-bold">20k - 30k</span>
+                            </div>
+                            <p class="text-slate-500 text-sm mb-4 italic">"Rasanya sangat nikmat dengan berbagai pilihan topping."</p>
+                            <div class="flex gap-2">
+                                <span class="text-[10px] bg-slate-100 px-2 py-1 rounded uppercase">Coklat</span>
+                                <span class="text-[10px] bg-slate-100 px-2 py-1 rounded uppercase">Keju</span>
+                                <span class="text-[10px] bg-slate-100 px-2 py-1 rounded uppercase">Campur</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-2xl shadow-md border-t-4 border-emerald-500 hover-scale opacity-90">
+                            <div class="flex justify-between items-start mb-2">
+                                <h4 class="text-xl font-bold text-slate-800">Martabak Telor</h4>
+                                <span class="text-emerald-600 font-bold">Tersedia</span>
+                            </div>
+                            <p class="text-slate-500 text-sm mb-4 italic">Gurih, renyah, dan mengenyangkan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-slate-800 text-slate-400 py-10 text-center text-sm">
+        <p>&copy; 2024 Martabak Manis Official - Diolah oleh Izhar Syah</p>
+        <p class="mt-2 text-slate-500">Dibuat untuk kemajuan UMKM Indonesia</p>
+    </footer>
+
+</body>
+</html>
